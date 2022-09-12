@@ -1,17 +1,23 @@
-div {
-    background-color: aqua;
-    color: red;
-    font-size: 24px;
+.box{
+    border: 4px solid lightgray;
+    height: 100px;
+    width: 100px;
 }
 
-@media (max-width: 993px) {
-    div {
-        font-size: 20px;
-    }
-}
-@media (max-width: 768px) {
-    div {
-        font-size: 18px;
-    }
+.box-small{
+    height: 50px;
+    width: 50px;
+    margin: 24px;
 }
 
+.box-wraper{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    border: 4px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
